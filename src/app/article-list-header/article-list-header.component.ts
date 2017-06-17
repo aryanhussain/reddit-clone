@@ -35,7 +35,8 @@ export class ArticleListHeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    jQuery('ui.dropdown').dropdown();
+    console.log(jQuery('.dropdown'))
+    jQuery('.ui.dropdown').dropdown();
   }
 
 }
